@@ -53,6 +53,24 @@ export default function ApplicationCard({ application, attachmentCount, onOpen }
             </span>
           )}
           {!application.location && application.workMode && <span>{application.workMode}</span>}
+          {application.salary && (
+            <span title="RAL / compenso">
+              <svg
+                width="13"
+                height="13"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+                aria-hidden="true"
+              >
+                <rect x="3" y="6" width="18" height="13" rx="2.5" />
+                <path d="M3 10h18M16.5 14.5h.01" />
+              </svg>
+              {application.salary}
+            </span>
+          )}
           {application.source && <span>{application.source}</span>}
           {attachmentCount > 0 && (
             <span>
