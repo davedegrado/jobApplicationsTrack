@@ -1,0 +1,13 @@
+{
+  "name": "Candidature",
+  "short_name": "Candidature",
+  "description": "Tracker personale delle candidature di lavoro.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eceff3",
+  "theme_color": "#eceff3",
+  "icons": [
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
